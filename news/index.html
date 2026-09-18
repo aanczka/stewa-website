@@ -1,0 +1,25 @@
+---
+layout: default
+title: News
+description: Latest news and stories from the STEWA project schools and partners.
+permalink: /news/
+---
+<header class="page-hero">
+  <div class="container">
+    <p class="eyebrow">STEWA</p>
+    <h1>News</h1>
+    <p class="lead">Stories, activities and updates from our schools and partners, newest first.</p>
+  </div>
+</header>
+<div class="container">
+  {%- assign by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
+  {%- for year in by_year %}
+  <section class="year-group" aria-labelledby="y{{ year.name }}">
+    <h2 class="year-group__title" id="y{{ year.name }}">{{ year.name }}</h2>
+    <div class="cards cards--3">
+      {%- for post in year.items %}{% include news-card.html post=post %}{% endfor -%}
+    </div>
+  </section>
+  {%- endfor %}
+  {%- if site.posts.size == 0 %}<p class="empty">No news yet – check back soon.</p>{% endif %}
+</div>

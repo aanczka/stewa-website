@@ -1,0 +1,12 @@
+{%- assign p = include.post -%}
+<article class="card news-card">
+  <a class="card__media{% unless p.image %} card__media--placeholder{% endunless %}" href="{{ p.url | relative_url }}" tabindex="-1" aria-hidden="true">
+    {%- if p.image %}<img src="{{ p.image | relative_url }}" alt="" loading="lazy">{% endif -%}
+  </a>
+  <div class="card__body">
+    <p class="card__meta"><time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%-d %B %Y" }}</time>{% if p.location %} · {{ p.location }}{% endif %}</p>
+    <h3 class="card__title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+    <p class="card__excerpt">{{ p.excerpt | strip_html | strip | truncate: 150 }}</p>
+    <a class="card__more" href="{{ p.url | relative_url }}">Read more <span aria-hidden="true">&rarr;</span></a>
+  </div>
+</article>

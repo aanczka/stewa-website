@@ -1,0 +1,29 @@
+---
+layout: default
+title: Mobilities
+description: Erasmus+ learning, teaching and training mobilities of the STEWA project.
+permalink: /mobilities/
+---
+<header class="page-hero">
+  <div class="container">
+    <p class="eyebrow">STEWA</p>
+    <h1>Mobilities</h1>
+    <p class="lead">Teachers and staff from the six partner organisations meet for short-term training events hosted in turn by each country.</p>
+  </div>
+</header>
+<div class="container">
+  <div class="cards cards--2">
+    {%- assign mobs = site.mobilities | sort: "start_date" | reverse -%}
+    {%- for m in mobs %}
+    <article class="card card--wide">
+      <a class="card__media" href="{{ m.url | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ m.image | relative_url }}" alt="" loading="lazy"></a>
+      <div class="card__body">
+        <p class="card__meta">{{ m.dates_label }} · {{ m.location }}</p>
+        <h3 class="card__title"><a href="{{ m.url | relative_url }}">{{ m.title }}</a></h3>
+        <p class="card__excerpt">{{ m.excerpt }}</p>
+        <a class="card__more" href="{{ m.url | relative_url }}">Read more <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+</div>

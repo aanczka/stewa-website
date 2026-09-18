@@ -1,0 +1,96 @@
+---
+layout: default
+title: STEWA – Save the Earth with Arts
+description: An Erasmus+ project promoting environmental awareness and climate action among students with special educational needs, their families and educators.
+---
+<main id="main">
+<section class="hero">
+  <div class="container">
+    <div class="hero-card">
+      <div class="hero-card__text">
+        <p class="eyebrow eyebrow--light">Erasmus+ · KA220-SCH · 6 partners in 6 countries</p>
+        <h1>Environmental awareness and climate action, <em>through the arts</em></h1>
+        <p>The project aims to promote environmental awareness and climate action among students with special educational needs (SEN), their families, and educators. Through a range of training activities, workshops, and collaborative events, participants deepen their understanding of climate change and sustainable living.</p>
+        <p>We support teachers in developing innovative, creative and digital approaches to environmental education, while fostering greater inclusion and participation of SEN students.</p>
+        <div class="hero-card__actions">
+          <a class="btn btn--light" href="{{ '/news/' | relative_url }}">Latest news</a>
+          <a class="btn btn--ghost" href="{{ '/about/' | relative_url }}">About the project</a>
+        </div>
+      </div>
+      <div class="hero-card__media" aria-hidden="true">
+        <div class="hero-orb">
+          <img src="{{ '/assets/img/hero/hand-tree.jpg' | relative_url }}" alt="" width="700" height="747" fetchpriority="high">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--news" id="news">
+  <div class="container">
+    <div class="section-head">
+      <h2>News</h2>
+      <a class="btn btn--pill" href="{{ '/news/' | relative_url }}">View all news <span aria-hidden="true">&rarr;</span></a>
+    </div>
+    <div class="cards cards--4">
+      {%- for post in site.posts limit: 4 %}{% include news-card.html post=post %}{% endfor -%}
+    </div>
+  </div>
+</section>
+
+<section class="section section--glance">
+  <div class="container">
+    <div class="glance">
+      <div class="glance__intro">
+        <p class="eyebrow">The project at a glance</p>
+        <h2>Creative, digital and inclusive environmental education</h2>
+        <p>By creating new teaching methods and increasing the use of digital educational resources, STEWA seeks to enhance learning outcomes and engagement, and to encourage environmentally responsible behaviours that last.</p>
+        <a class="btn btn--primary" href="{{ '/about/' | relative_url }}">Read about our goals</a>
+      </div>
+      <ul class="stats">
+        <li><strong>{{ site.data.partners | size }}</strong><span>partner organisations</span></li>
+        <li><strong>6</strong><span>European countries</span></li>
+        <li><strong>{{ site.mobilities | size }}</strong><span>learning mobilities so far</span></li>
+        <li><strong>{{ site.posts | size }}</strong><span>stories from our schools</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section--mobilities">
+  <div class="container">
+    <div class="section-head">
+      <h2>Mobilities</h2>
+      <a class="btn btn--pill" href="{{ '/mobilities/' | relative_url }}">All mobilities <span aria-hidden="true">&rarr;</span></a>
+    </div>
+    <div class="cards cards--2">
+      {%- assign mobs = site.mobilities | sort: "start_date" | reverse -%}
+      {%- for m in mobs limit: 2 %}
+      <article class="card card--wide">
+        <a class="card__media" href="{{ m.url | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ m.image | relative_url }}" alt="" loading="lazy"></a>
+        <div class="card__body">
+          <p class="card__meta">{{ m.dates_label }} · {{ m.location }}</p>
+          <h3 class="card__title"><a href="{{ m.url | relative_url }}">{{ m.title }}</a></h3>
+          <p class="card__excerpt">{{ m.excerpt }}</p>
+          <a class="card__more" href="{{ m.url | relative_url }}">Read more <span aria-hidden="true">&rarr;</span></a>
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--partners">
+  <div class="container">
+    <div class="section-head">
+      <h2>Project partners</h2>
+      <a class="btn btn--pill" href="{{ '/partners/' | relative_url }}">Meet the partners <span aria-hidden="true">&rarr;</span></a>
+    </div>
+    <ul class="logo-strip">
+      {%- for p in site.data.partners %}
+      <li><a href="{{ p.website }}" target="_blank" rel="noopener" title="{{ p.name | escape }}"><img src="{{ p.logo | relative_url }}" alt="{{ p.short | escape }}" loading="lazy"><span>{{ p.city }}, {{ p.country }}</span></a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+</main>

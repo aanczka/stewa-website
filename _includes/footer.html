@@ -1,0 +1,38 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-card">
+      <div class="footer-grid">
+        <div class="footer-col footer-col--about">
+          <a class="brand brand--footer" href="{{ '/' | relative_url }}">
+            <img class="brand__mark" src="{{ '/assets/img/logo/stewa-mark.jpg' | relative_url }}" alt="" width="64" height="52">
+            <span class="brand__text">Save the Earth<br>with Arts</span>
+          </a>
+          <p>{{ site.description }}</p>
+          {%- include social-icons.html class="social--footer" -%}
+        </div>
+        <nav class="footer-col" aria-label="Footer">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            {%- for item in site.data.navigation %}<li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>{% endfor %}
+            <li><a href="{{ '/news/feed.xml' | relative_url }}">News feed (RSS)</a></li>
+          </ul>
+        </nav>
+        <div class="footer-col">
+          <h4>Coordinator</h4>
+          <p><strong>{{ site.project.coordinator }}</strong><br>{{ site.project.coordinator_city }}</p>
+          <p><a href="{{ site.project.coordinator_website }}" target="_blank" rel="noopener">{{ site.project.coordinator_website | remove: 'https://' }}</a>
+          {%- if site.project.contact_email != "" %}<br><a href="mailto:{{ site.project.contact_email }}">{{ site.project.contact_email }}</a>{% endif %}</p>
+          <p class="footer-small">{{ site.project.programme }}<br>Project no. {{ site.project.number }}</p>
+        </div>
+        <div class="footer-col footer-col--eu">
+          {%- include eu-badge.html class="eu-badge--footer" -%}
+          <p class="footer-small">Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.project.full_name }} – STEWA project partnership.</p>
+        <p>Photos: project partners. Nature imagery: CC0 via pxhere.</p>
+      </div>
+    </div>
+  </div>
+</footer>

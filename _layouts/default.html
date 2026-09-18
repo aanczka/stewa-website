@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="icon" type="image/jpeg" href="{{ '/assets/img/logo/stewa-mark.jpg' | relative_url }}">
+  <link rel="preload" href="{{ '/assets/fonts/Poppins-Regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ '/assets/fonts/Poppins-SemiBold.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}">
+  {%- feed_meta -%}
+</head>
+<body class="{% if page.url == '/' %}is-home{% endif %}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-top{% if page.url == '/' %} site-top--home{% endif %}">
+    {%- include header.html -%}
+    {%- if page.url == '/' -%}{{ content }}{%- endif -%}
+  </div>
+  {%- unless page.url == '/' -%}
+  <main id="main" class="site-main">{{ content }}</main>
+  {%- endunless -%}
+  {%- include footer.html -%}
+  <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+</body>
+</html>

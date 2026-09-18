@@ -1,0 +1,68 @@
+# ── Site settings ────────────────────────────────────────────────────────────
+title: STEWA – Save the Earth with Arts
+tagline: Environmental awareness and climate action for students with special educational needs
+description: >-
+  STEWA (Save the Earth with Arts) is an Erasmus+ project promoting environmental
+  awareness and climate action among students with special educational needs (SEN),
+  their families and educators, through creative, digital and inclusive teaching.
+lang: en
+
+# Change these two lines when you publish (see README.md):
+#   GitHub Pages project site → url: https://YOUR-USERNAME.github.io, baseurl: /stewa-website
+#   Custom domain             → url: https://www.stewaproject.eu, baseurl: ""
+url: "https://YOUR-USERNAME.github.io"
+baseurl: "/stewa-website"
+
+project:
+  acronym: STEWA
+  full_name: SAVE the Earth With Arts
+  programme: Erasmus+ KA220-SCH – Cooperation partnerships in school education
+  number: 2025-1-RO01-KA220-SCH-000354913
+  coordinator: Centrul Școlar pentru Educație Incluzivă „Maria Montessori”
+  coordinator_city: Constanța, Romania
+  coordinator_website: https://www.cseimontessori.eu
+  contact_email: ""          # add an official contact e-mail when available
+
+# Social links – replace "#" with the real profile URLs. Leave "" to hide an icon.
+social:
+  facebook: "#"
+  x: "#"
+  instagram: "#"
+  youtube: "#"
+
+# ── Build settings ───────────────────────────────────────────────────────────
+markdown: kramdown
+permalink: /news/:year/:month/:title/
+timezone: Europe/Bucharest
+future: false
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: news/feed.xml
+
+collections:
+  mobilities:
+    output: true
+    permalink: /mobilities/:name/
+    sort_by: start_date
+
+defaults:
+  - scope: { path: "", type: "posts" }
+    values: { layout: post }
+  - scope: { path: "", type: "mobilities" }
+    values: { layout: mobility }
+  - scope: { path: "" }
+    values: { layout: page }
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - HOW-TO-ADD-NEWS.md
+  - vendor
+  - node_modules
+  - .github

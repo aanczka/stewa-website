@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article class="post mobility">
+  <header class="post-header">
+    <div class="container container--narrow">
+      <a class="back-link" href="{{ '/mobilities/' | relative_url }}">&larr; All mobilities</a>
+      <p class="post-meta">
+        <span>{{ page.dates_label }}</span>
+        <span class="dot" aria-hidden="true"></span><span>{{ page.location }}</span>
+      </p>
+      <h1>{{ page.title }}</h1>
+      {%- if page.subtitle %}<p class="lead">{{ page.subtitle }}</p>{% endif -%}
+    </div>
+  </header>
+  {%- if page.image %}
+  <div class="container"><figure class="post-cover"><img src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}"></figure></div>
+  {%- endif %}
+  <div class="container container--narrow">
+    <dl class="facts">
+      <div><dt>Dates</dt><dd>{{ page.dates_label }}</dd></div>
+      <div><dt>Location</dt><dd>{{ page.location }}</dd></div>
+      {%- if page.host %}<div><dt>Host</dt><dd>{{ page.host }}</dd></div>{% endif -%}
+    </dl>
+    <div class="prose">{{ content }}</div>
+  </div>
+  {%- if page.gallery %}<div class="container">{% include gallery.html images=page.gallery title=page.title %}</div>{% endif %}
+  <footer class="post-footer container container--narrow">
+    <a class="btn btn--outline" href="{{ '/mobilities/' | relative_url }}">Back to all mobilities</a>
+  </footer>
+</article>

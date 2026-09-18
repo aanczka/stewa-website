@@ -1,0 +1,10 @@
+<section class="gallery" aria-label="Photo gallery">
+  <h2 class="gallery__title">Gallery</h2>
+  <div class="gallery__grid">
+    {%- for img in include.images %}
+    <a class="gallery__item" href="{{ img | relative_url }}" target="_blank" rel="noopener">
+      <img src="{{ img | relative_url }}" alt="{{ include.title | escape }} – photo {{ forloop.index }}" loading="lazy">
+    </a>
+    {%- endfor %}
+  </div>
+</section>

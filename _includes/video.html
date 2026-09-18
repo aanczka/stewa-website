@@ -1,0 +1,11 @@
+{%- assign url = include.url -%}
+{%- assign yt = "" -%}
+{%- if url contains "youtube.com/watch?v=" -%}{%- assign yt = url | split: "v=" | last | split: "&" | first -%}
+{%- elsif url contains "youtu.be/" -%}{%- assign yt = url | split: "youtu.be/" | last | split: "?" | first -%}{%- endif -%}
+<figure class="video">
+  {%- if yt != "" %}
+  <div class="video__frame"><iframe src="https://www.youtube-nocookie.com/embed/{{ yt }}" title="Video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  {%- else %}
+  <video controls preload="metadata" src="{{ url | relative_url }}"></video>
+  {%- endif %}
+</figure>

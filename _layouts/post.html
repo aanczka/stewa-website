@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <div class="container container--narrow">
+      <a class="back-link" href="{{ '/news/' | relative_url }}">&larr; All news</a>
+      <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
+        {%- if page.location %}<span class="dot" aria-hidden="true"></span><span>{{ page.location }}</span>{% endif -%}
+      </p>
+      <h1>{{ page.title }}</h1>
+      {%- if page.excerpt and page.excerpt != "" %}<p class="lead">{{ page.excerpt | strip_html | strip }}</p>{% endif -%}
+    </div>
+  </header>
+  {%- if page.image %}
+  <div class="container">
+    <figure class="post-cover"><img src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}" loading="eager"></figure>
+  </div>
+  {%- endif %}
+  <div class="container container--narrow">
+    <div class="prose">{{ content }}</div>
+    {%- if page.video %}{% include video.html url=page.video %}{% endif -%}
+  </div>
+  {%- if page.gallery %}
+  <div class="container">{% include gallery.html images=page.gallery title=page.title %}</div>
+  {%- endif %}
+  <footer class="post-footer container container--narrow">
+    <div class="post-nav">
+      {%- if page.next %}<a class="post-nav__item" href="{{ page.next.url | relative_url }}"><span>Newer</span><strong>{{ page.next.title }}</strong></a>{% endif -%}
+      {%- if page.previous %}<a class="post-nav__item post-nav__item--right" href="{{ page.previous.url | relative_url }}"><span>Older</span><strong>{{ page.previous.title }}</strong></a>{% endif -%}
+    </div>
+    <a class="btn btn--outline" href="{{ '/news/' | relative_url }}">Back to all news</a>
+  </footer>
+</article>

@@ -1,0 +1,55 @@
+# Partner organisations. Order = display order. Logos live in assets/img/partners/.
+- name: Centrul Școlar pentru Educație Incluzivă „Maria Montessori”
+  short: CSEI „Maria Montessori”
+  role: Coordinator
+  country: Romania
+  city: Constanța
+  address: Nicolae Măndoi nr. 17, Constanța
+  website: https://www.cseimontessori.eu
+  logo: /assets/img/partners/montessori.jpg
+  flag: 🇷🇴
+- name: Osnovno učilište so resursen centar „Dr. Zlatan Sremec”
+  short: OURC „Dr. Zlatan Sremec”
+  role: Partner
+  country: North Macedonia
+  city: Skopje
+  address: Emil Zola St. No. 5, 1000 Skopje
+  website: https://www.zlatansremec.edu.mk/
+  logo: /assets/img/partners/sremec.jpg
+  flag: 🇲🇰
+- name: Alcedo Adult Education Centre
+  short: Alcedo AEC
+  role: Partner
+  country: Poland
+  city: Siedlce
+  address: Widok 9A, 08-110 Siedlce
+  website: https://www.alcedo-aec.pl
+  logo: /assets/img/partners/alcedo.jpg
+  flag: 🇵🇱
+- name: Srednja škola Centar za odgoj i obrazovanje
+  short: SŠ Centar za odgoj i obrazovanje
+  role: Partner
+  country: Croatia
+  city: Zagreb
+  address: Zagorska 14, Zagreb
+  website: https://www.ss-czoio.hr
+  logo: /assets/img/partners/czoio.jpg
+  flag: 🇭🇷
+- name: Matherz OÜ
+  short: Matherz
+  role: Partner
+  country: Estonia
+  city: Tallinn
+  address: Müürivahe tn 52, 10140 Tallinn, Harju County
+  website: https://www.matherz.com/
+  logo: /assets/img/partners/matherz.png
+  flag: 🇪🇪
+- name: Yenilikçi Fikirler Kültür, Sanat ve Spor Derneği
+  short: Yenilikçi Fikirler
+  role: Partner
+  country: Türkiye
+  city: Nazilli / Aydın
+  address: "Zafer Mahallesi 152 Sokak No: 8/A, 09800 Nazilli / Aydın"
+  website: https://www.yenilikcifikirler.biz/
+  logo: /assets/img/partners/yenilikci.jpg
+  flag: 🇹🇷
