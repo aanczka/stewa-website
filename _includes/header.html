@@ -10,7 +10,7 @@
       <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
       <label for="nav-toggle" class="nav-burger" aria-label="Open menu"><span></span><span></span><span></span></label>
       <nav class="site-nav" aria-label="Main">
-        <ul>
+        <ul class="nav-list">
           {%- for item in site.data.navigation %}
           {%- assign is_current = false -%}
           {%- if page.url == item.url or page.url contains item.url and item.url != '/' -%}{%- assign is_current = true -%}{%- endif -%}
