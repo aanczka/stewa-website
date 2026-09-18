@@ -13,20 +13,20 @@ and hosted on GitHub Pages.
 1. Create an empty repository on GitHub called `stewa-website` (Public, no README).
 2. Push this folder to it:
    ```bash
-   git remote add origin git@github.com:YOUR-USERNAME/stewa-website.git
+   git remote add origin git@github.com:aanczka/stewa-website.git
    git push -u origin main
    ```
 3. On GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions.**
-4. In `_config.yml` set `url: "https://YOUR-USERNAME.github.io"` (keep
+4. In `_config.yml` set `url: "https://aanczka.github.io"` (keep
    `baseurl: "/stewa-website"`), commit and push. The workflow in
    `.github/workflows/jekyll.yml` builds and deploys the site on every push.
-5. The site is live at `https://YOUR-USERNAME.github.io/stewa-website/`.
+5. The site is live at `https://aanczka.github.io/stewa-website/`.
 
 ### Custom domain (optional, e.g. www.stewaproject.eu)
 
 1. Create a file named `CNAME` in the repository root containing `www.stewaproject.eu`.
 2. In `_config.yml` set `url: "https://www.stewaproject.eu"` and `baseurl: ""`.
-3. At your domain provider add a `CNAME` record `www → YOUR-USERNAME.github.io`
+3. At your domain provider add a `CNAME` record `www → aanczka.github.io`
    and, for the bare domain, `A` records to `185.199.108.153`, `185.199.109.153`,
    `185.199.110.153`, `185.199.111.153`.
 4. GitHub → Settings → Pages → Custom domain → enter the domain, wait for the

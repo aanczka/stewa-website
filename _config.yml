@@ -10,7 +10,7 @@ lang: en
 # Change these two lines when you publish (see README.md):
 #   GitHub Pages project site → url: https://YOUR-USERNAME.github.io, baseurl: /stewa-website
 #   Custom domain             → url: https://www.stewaproject.eu, baseurl: ""
-url: "https://YOUR-USERNAME.github.io"
+url: "https://aanczka.github.io"
 baseurl: "/stewa-website"
 
 project:
