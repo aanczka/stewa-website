@@ -2,8 +2,8 @@
 title: Project Partners
 permalink: /partners/
 wide: true
-lead: Six organisations from six countries work together in STEWA, combining expertise in special and inclusive education, adult learning, educational technology and the arts.
-description: The six partner organisations of the STEWA Erasmus+ project.
+lead: Six organisations from six countries work together in Save the Earth with Arts, combining expertise in special and inclusive education, adult learning, educational technology and the arts.
+description: The six partner organisations of the Save the Earth with Arts Erasmus+ project.
 ---
 <div class="partner-grid">
 {%- for p in site.data.partners %}
