@@ -27,5 +27,3 @@ description: Results, teaching materials and resources produced by the STEWA pro
     <p>Pre- and post-test results measuring how students' environmental awareness and habits changed over the course of the project.</p>
   </article>
 </div>
-
-Have a question about the results, or would you like to reuse them in your school? Please contact the coordinating organisation, {{ site.project.coordinator }}.
