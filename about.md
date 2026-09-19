@@ -1,8 +1,8 @@
 ---
 title: About the Project
 permalink: /about/
-lead: STEWA – Save the Earth with Arts – is an Erasmus+ cooperation partnership in school education that brings environmental education to students with special educational needs through creativity, digital tools and inclusion.
-description: Goals, approach and background of the STEWA Erasmus+ project.
+lead: Save the Earth with ARTS – is an Erasmus+ cooperation partnership in school education that brings environmental education to students with special educational needs through creativity, digital tools and inclusion.
+description: Goals, approach and background of the Save the Earth With ARTS Erasmus+ project.
 ---
 The project aims to promote environmental awareness and climate action among students with special educational needs (SEN), their families, and educators.
 
@@ -34,7 +34,6 @@ The partnership brings together six organisations from Romania, North Macedonia,
 
 ## Funding
 
-STEWA is co-funded by the European Union under the **{{ site.project.programme }}** action.  
+Save the Earth With ARTS is co-funded by the European Union under the **{{ site.project.programme }}** action.  
 Project number: **{{ site.project.number }}**.
 
-<div class="disclaimer">Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.</div>
