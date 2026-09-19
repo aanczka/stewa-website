@@ -3,7 +3,7 @@ title: Project Outputs
 permalink: /outputs/
 wide: true
 lead: The results of the project will be published here as they are completed, free to download and reuse.
-description: Results, teaching materials and resources produced by the STEWA project.
+description: Results, teaching materials and resources produced by the Save the Earth with Arts project.
 ---
 <div class="outputs-grid">
   <article class="output-card">
