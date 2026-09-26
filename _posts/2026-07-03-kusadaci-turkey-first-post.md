@@ -3,7 +3,7 @@ title: "Project mobility in Kuşadası, Türkiye"
 date: 2026-07-03
 location: Kuşadası, Türkiye
 image: /assets/img/news/d677b421-8569-48f3-a24d-f812687a6d83.jpeg
-excerpt: "One or two sentences shown on the news card. Keep it under ~160 characters."
+excerpt: "Practical outdoor and sports-based activities that promoted teamwork, environmental awareness, and healthy lifestyles. "
 gallery:
   - /assets/img/news/d677b421-8569-48f3-a24d-f812687a6d83.jpeg
 ---
