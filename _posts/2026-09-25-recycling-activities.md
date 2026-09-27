@@ -2,7 +2,7 @@
 title: "Recycling activities"
 date: 2026-09-25
 location: Skopje, North Macedonia
-image: /assets/img/news/AEC1.jpg
+image: /assets/img/news/mk4.jpg
 excerpt: "Autumn has finally arrived, bringing with it the traditional time for a cleanup, just as it does every year!"
 gallery:
   - /assets/img/news/mk1.jpg
