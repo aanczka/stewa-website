@@ -3,7 +3,7 @@ title: "Recycling activities"
 date: 2026-09-25
 location: Skopje, North Macedonia
 image: /assets/img/news/mk4.jpg
-excerpt: "Autumn has finally arrived, bringing with it the traditional time for a cleanup, just as it does every year!"
+excerpt: "The school continues its activities within the “Save the Earth with Arts” project by promoting recycling through creativity and play."
 gallery:
   - /assets/img/news/mk1.jpg
   - /assets/img/news/mk2.jpg
