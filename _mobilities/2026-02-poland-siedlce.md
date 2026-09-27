@@ -6,7 +6,7 @@ host: Alcedo Adult Education Centre
 start_date: 2026-02-16
 end_date: 2026-02-19
 dates_label: 16–19 February 2026
-image: /assets/img/mobilities/pl1 (12).jpg
+image: /assets/img/mobilities/pl1 (12).jpeg
 excerpt: Teachers from six countries met in Siedlce for four days of training and exchange on environmental education.
 gallery:
   - /assets/img/mobilities/poland-1.jpg
@@ -19,18 +19,18 @@ gallery:
   - /assets/img/mobilities/poland-8.jpg
   - /assets/img/mobilities/poland-9.jpg
   - /assets/img/mobilities/poland-10.jpg
-  - /assets/img/mobilities/pl1 (1).jpg
-  - /assets/img/mobilities/pl1 (2).jpg
-  - /assets/img/mobilities/pl1 (3).jpg
-  - /assets/img/mobilities/pl1 (4).jpg
-  - /assets/img/mobilities/pl1 (5).jpg
-  - /assets/img/mobilities/pl1 (6).jpg
-  - /assets/img/mobilities/pl1 (7).jpg
-  - /assets/img/mobilities/pl1 (8).jpg
-  - /assets/img/mobilities/pl1 (9).jpg
-  - /assets/img/mobilities/pl1 (10).jpg
-  - /assets/img/mobilities/pl1 (11).jpg
-  - /assets/img/mobilities/pl1 (12).jpg
+  - /assets/img/mobilities/pl1 (1).jpeg
+  - /assets/img/mobilities/pl1 (2).jpeg
+  - /assets/img/mobilities/pl1 (3).jpeg
+  - /assets/img/mobilities/pl1 (4).jpeg
+  - /assets/img/mobilities/pl1 (5).jpeg
+  - /assets/img/mobilities/pl1 (6).jpeg
+  - /assets/img/mobilities/pl1 (7).jpeg
+  - /assets/img/mobilities/pl1 (8).jpeg
+  - /assets/img/mobilities/pl1 (9).jpeg
+  - /assets/img/mobilities/pl1 (10).jpeg
+  - /assets/img/mobilities/pl1 (11).jpeg
+  - /assets/img/mobilities/pl1 (12).jpeg
 ---
 Teachers from Poland, Romania, Croatia, Türkiye, Estonia and North Macedonia participated in an international mobility dedicated to environmental education.
 
