@@ -6,21 +6,33 @@ host: Yenilikçi Fikirler Kültür, Sanat ve Spor Derneği
 start_date: 2026-06-29
 end_date: 2026-07-02
 dates_label: 29 June – 2 July 2026
-image: /assets/img/mobilities/turkiye-1.jpg
+image: /assets/img/news/tr1.jpg
 excerpt: Four days of outdoor learning, recycling workshops and cooperative sports activities on the Aegean coast.
 gallery:
-  - /assets/img/mobilities/turkiye-1.jpg
-  - /assets/img/mobilities/turkiye-2.jpg
-  - /assets/img/mobilities/turkiye-3.jpg
-  - /assets/img/mobilities/turkiye-4.jpg
-  - /assets/img/mobilities/turkiye-5.jpg
-  - /assets/img/mobilities/turkiye-6.jpg
-  - /assets/img/mobilities/turkiye-7.jpg
-  - /assets/img/mobilities/turkiye-8.jpg
-  - /assets/img/mobilities/turkiye-9.jpg
-  - /assets/img/mobilities/turkiye-10.jpg
-  - /assets/img/mobilities/turkiye-11.jpg
-  - /assets/img/mobilities/turkiye-12.jpg
+  - /assets/img/news/tr1.jpg
+  - /assets/img/news/tr2.jpg
+  - /assets/img/news/tr3.jpg
+  - /assets/img/news/tr4.jpg
+  - /assets/img/news/tr5.jpg
+  - /assets/img/news/tr6.jpg
+  - /assets/img/news/tr7.jpg
+  - /assets/img/news/tr8.jpg
+  - /assets/img/news/tr9.jpg
+  - /assets/img/news/tr10.jpg
+  - /assets/img/news/tr11.jpg
+  - /assets/img/news/tr12.jpg
+  - /assets/img/news/tr13.jpg
+  - /assets/img/news/tr14.jpg
+  - /assets/img/news/tr15.jpg
+  - /assets/img/news/tr16.jpg
+  - /assets/img/news/tr17.jpg
+  - /assets/img/news/tr18.jpg
+  - /assets/img/news/tr19.jpg
+  - /assets/img/news/tr20.jpg
+  - /assets/img/news/tr21.jpg
+  - /assets/img/news/tr22.jpg
+  - /assets/img/news/tr23.jpg
+  - /assets/img/news/tr24.jpg
 ---
 ### Days 1–2
 
