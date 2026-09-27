@@ -30,6 +30,6 @@ gallery:
   - /assets/img/news/mk23.jpg
   - /assets/img/news/mk24.jpg
 ---
-The school continues its activities within the “Save the Earth with Arts” project by promoting recycling through creativity and play. Students, parents, and school staff work together to create sports equipment and useful objects from recycled materials. Through these activities, participants learn that caring for the environment can be fun, creative, and inclusive..
+The school continues its activities within the “Save the Earth with Arts” project by promoting recycling through creativity and play. Students, parents, and school staff work together to create sports equipment and useful objects from recycled materials. Through these activities, participants learn that caring for the environment can be fun, creative, and inclusive.
 
 
