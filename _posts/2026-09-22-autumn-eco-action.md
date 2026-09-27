@@ -3,7 +3,7 @@ title: "Autumn Eco-Action"
 date: 2026-09-22
 location: Skopje, North Macedonia
 image: /assets/img/news/AEC1.jpg
-excerpt: "Volunteers and our students joined forces to clean up the school yard and make it a greener, healthier place for everyone."
+excerpt: "Autumn has finally arrived, bringing with it the traditional time for a cleanup, just as it does every year!"
 gallery:
   - /assets/img/news/AEC1.jpg
   - /assets/img/news/AEC2.jpg
