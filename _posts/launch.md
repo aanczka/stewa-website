@@ -1,0 +1,51 @@
+---
+title: "Official Launch of the Erasmus+ Project “Save the Earth With ARTS”!"
+date: 2025-12-09
+location: Constanța, Romania
+image: /assets/img/news/logostewa.jpg
+excerpt: "The Maria Montessori Inclusive Education School Centre is delighted to announce the launch of a new European project."
+gallery:
+  - /assets/img/news/logostewa.jpg
+---
+**Official Launch of the Erasmus+ Project “Save the Earth With ARTS”! 🎨💚**
+
+The Maria Montessori Inclusive Education School Centre is delighted to announce the launch of a new European project dedicated to developing key competences, protecting the environment, and creating opportunities for students with special educational needs (SEN).
+
+📌 **Project funded by the Erasmus+ KA220-SCH Programme**,
+Project No. **2025-1-RO01-KA220-SCH-000354913**,
+implemented from **01.12.2025 to 30.11.2028**.
+
+The project brings together an international consortium consisting of:
+
+🇹🇷 **Innovative Ideas Culture, Art and Sports Association**, Nazilli – Türkiye
+
+🇵🇱 **ALCEDO Adult Education Centre Sp. z o.o.** – Poland
+
+🇭🇷 **Srednja škola Centar za odgoj i obrazovanje** – Croatia
+
+🇲🇰 **Osnovno učilište so resursen centar "Dr. Zlatan Sremec"** – Skopje, North Macedonia
+
+🇪🇪 **Matherz OÜ** – Estonia
+
+🇷🇴 **CSEI Maria Montessori** – Romania (Coordinator)
+
+🌱 **Our mission:**
+
+To empower students to become aware, responsible, and actively engaged in addressing climate change through creative activities, innovative methods, and exploration of nature.
+
+🎯 **The project objectives include:**
+
+✔ increasing students’ knowledge and awareness of environmental protection
+
+✔ developing teachers’ professional and digital competences
+
+✔ reducing the carbon footprint of the school community
+
+✔ creating digital materials, recycled products, exhibitions, campaigns, and outdoor activities
+
+✔ promoting a European identity based on cooperation, inclusion, and responsibility
+
+💫 We are ready to begin a journey where **art meets nature**, and education helps shape generations that love and protect our planet.
+
+
+
