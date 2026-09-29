@@ -33,11 +33,17 @@ gallery:
 Teachers from Poland, Romania, Croatia, Turkey, Estonia and North Macedonia participated in an international mobility dedicated to environmental education.
 “Save the Earth with Arts” – Project No. 2025-1-RO01-KA220-SCH-000354913
 During the 4 days of activities, participants:
+
 📚 took part in training activities: “Empowering Educators for a Greener Tomorrow”
 🌱 exchanged best practices in ecological education
+
 🤝 worked in international teams
+
 📚 developed sustainable educational activities for students
+
 💻 used digital tools and the eTwinning platform
+
 🌍 created a joint environmental education program that will be implemented in partner schools.
+
 ♻️ Through this project, we promote environmental responsibility and develop essential skills for a greener future.
 
