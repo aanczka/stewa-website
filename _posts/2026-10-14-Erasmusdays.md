@@ -1,9 +1,9 @@
 ---
-title: "Erasmus Days 2026"
+title: "Erasmus Days in OURC “Dr. Zlatan Sremec” – Skopje"
 date: 2026-10-14
 location: Skopje, North Macedonia
 image: /assets/img/news/Days33.jpg
-excerpt: "Erasmus Days in OURC “Dr. Zlatan Sremec” – Skopje"
+excerpt: "During Erasmus Days 2026, the students of OURC “Dr. Zlatan Sremec” – Skopje celebrated inclusion, teamwork and environmental responsibility"
 gallery:
 - /assets/img/news/Days1.jpg
 - /assets/img/news/Days2.jpg
