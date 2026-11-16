@@ -3,7 +3,7 @@ title: "Erasmus Days 2026"
 date: 2026-10-14
 location: Skopje, North Macedonia
 image: /assets/img/news/Days33.jpg
-excerpt: "Autumn has finally arrived, bringing with it the traditional time for a cleanup, just as it does every year!"
+excerpt: "Erasmus Days in OURC “Dr. Zlatan Sremec” – Skopje"
 gallery:
 - /assets/img/news/Days1.jpg
 - /assets/img/news/Days2.jpg
