@@ -13,7 +13,6 @@ gallery:
 - /assets/img/news/Days6.jpg
 - /assets/img/news/Days7.jpg
 - /assets/img/news/Days8.jpg
-- /assets/img/news/Days9.jpg
 - /assets/img/news/Days10.jpg
 - /assets/img/news/Days11.jpg
 - /assets/img/news/Days12.jpg
