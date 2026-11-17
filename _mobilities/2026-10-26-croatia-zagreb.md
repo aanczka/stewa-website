@@ -6,7 +6,7 @@ host: Srednja škola Centar za odgoj i obrazovanje
 start_date: 2026-10-26
 end_date: 2026-10-29
 dates_label: 26 October – 29 October 2026
-image: /assets/img/news/3HR10.jpeg
+image: /assets/img/news/3HR6.jpeg
 excerpt: Four days of recycling workshops, lectures, museum visits in the capital of Croatia
 gallery:
 - /assets/img/news/HR1.jpeg
