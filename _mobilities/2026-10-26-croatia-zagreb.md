@@ -1,6 +1,6 @@
 ---
 title: "Erasmus+ Mobility: Croatia"
-subtitle: Four days of recycling workshops, lectures, museum visits in the capital of Croatia
+subtitle: Four days of recycling workshops, lectures and museum visits in the capital of Croatia
 location: Zagreb, Croatia
 host: Srednja škola Centar za odgoj i obrazovanje
 start_date: 2026-10-26
